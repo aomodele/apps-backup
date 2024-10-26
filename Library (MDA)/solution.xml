@@ -1,0 +1,124 @@
+<ImportExportXml version="9.2.24092.202" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24092.202" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24092.00202">
+  <SolutionManifest>
+    <UniqueName>Library</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Library" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>PowerPlatform</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Power Platform" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Publisher for School Maintenance" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>pp</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>12560</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="pp_authors" behavior="0" />
+      <RootComponent type="1" schemaName="pp_book" behavior="0" />
+      <RootComponent type="1" schemaName="pp_bookcopies" behavior="0" />
+      <RootComponent type="1" schemaName="pp_contact" behavior="0" />
+      <RootComponent type="1" schemaName="pp_loan" behavior="0" />
+      <RootComponent type="1" schemaName="pp_student" behavior="0" />
+      <RootComponent type="9" schemaName="pp_checks" behavior="0" />
+      <RootComponent type="9" schemaName="pp_isoverdue" behavior="0" />
+      <RootComponent type="61" schemaName="pp_Authorlogo" behavior="0" />
+      <RootComponent type="61" schemaName="pp_Booklogo" behavior="0" />
+      <RootComponent type="61" schemaName="pp_BookShelflogo" behavior="0" />
+      <RootComponent type="61" schemaName="pp_Contactlogo" behavior="0" />
+      <RootComponent type="61" schemaName="pp_Loanlogo" behavior="0" />
+      <RootComponent type="62" schemaName="pp_Book" behavior="0" />
+      <RootComponent type="62" schemaName="pp_LibraryManagerwithCustomPage" behavior="0" />
+      <RootComponent type="62" schemaName="pp_Students" behavior="0" />
+      <RootComponent type="80" schemaName="pp_Book" behavior="0" />
+      <RootComponent type="80" schemaName="pp_LibraryManagerwithCustomPage" behavior="0" />
+      <RootComponent type="300" schemaName="pp_librarymanagerapp_0212b" behavior="0" />
+      <RootComponent type="300" schemaName="pp_page1_60ec5" behavior="0" />
+      <RootComponent type="431" schemaName="pp_book pp_bookimage" behavior="0" />
+      <RootComponent type="432" schemaName="pp_book" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="pp_Book" displayName="Book" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="pp_LibraryManagerwithCustomPage" displayName="Library Manager with Custom Page" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pp_Book,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="pp_Book" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pp_LibraryManagerwithCustomPage,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="pp_LibraryManagerwithCustomPage" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
