@@ -1,0 +1,115 @@
+<ImportExportXml version="9.2.24091.198" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24091.198" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24091.00198">
+  <SolutionManifest>
+    <UniqueName>SchoolMaintenance</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="School Maintenance" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>PowerPlatform</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Power Platform" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Publisher for School Maintenance" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>pp</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>12560</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="pp_locations" behavior="0" />
+      <RootComponent type="1" schemaName="pp_maintenancelog" behavior="0" />
+      <RootComponent type="1" schemaName="pp_servicearea" behavior="0" />
+      <RootComponent type="61" schemaName="pp_LocationMarker" behavior="0" />
+      <RootComponent type="61" schemaName="pp_MaintenanceIcon" behavior="0" />
+      <RootComponent type="61" schemaName="pp_ServiceAreaIcon" behavior="0" />
+      <RootComponent type="62" schemaName="pp_MaintenanceModelDrivenApp" behavior="0" />
+      <RootComponent type="62" schemaName="pp_ServiceArea" behavior="0" />
+      <RootComponent type="80" schemaName="pp_MaintenanceModelDrivenApp" behavior="0" />
+      <RootComponent type="431" schemaName="pp_locations pp_locationimage" behavior="0" />
+      <RootComponent type="431" schemaName="pp_maintenancelog pp_issuedphoto" behavior="0" />
+      <RootComponent type="432" schemaName="pp_locations" behavior="0" />
+      <RootComponent type="432" schemaName="pp_maintenancelog" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="pp_MaintenanceModelDrivenApp" displayName="Maintenance Model-Driven App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="mspp_settings.svg" displayName="mspp_settings.svg" solution="PowerPages_AppResources (1.0.2407.1)" />
+        <Dependent type="62" schemaName="pp_MaintenanceModelDrivenApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ServiceManagement.svg" displayName="ServiceManagement.svg" solution="PowerPlatformEnvironmentSettings (1.1.0.2242)" />
+        <Dependent type="62" schemaName="pp_MaintenanceModelDrivenApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pp_MaintenanceModelDrivenApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="pp_MaintenanceModelDrivenApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
