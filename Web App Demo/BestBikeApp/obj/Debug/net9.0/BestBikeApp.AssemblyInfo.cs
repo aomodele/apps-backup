@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BestBikeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bc877cafa54779843e528b10a091902798570cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44b1c9eff5e3d02a416c1e233c1382b677acc073")]
 [assembly: System.Reflection.AssemblyProductAttribute("BestBikeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BestBikeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
